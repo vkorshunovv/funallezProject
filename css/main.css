@@ -1,0 +1,43 @@
+body {
+    /* background-color: rgb(195, 195, 195); */
+    background-image: url("/images/funallez.jpeg");
+    background-size: cover;
+  background-position: center;
+}
+/* HEADER */
+nav {
+    
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.3em;
+    /* border-bottom: 1px solid #00000026; */
+    
+}
+
+
+
+.navbar-brand {
+    font-size: 1.1em;
+    font-weight: bold;
+    
+}
+
+
+#WB {
+    color: #7d256e65;
+    font-family:'Comfortaa', cursive;
+    font-size: 1.2em;
+}
+
+#Ozon {
+    color: #0059ff69;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+}
+
+/* MAIN */
+
+h2 {
+    text-align: left;
+    margin: 10% 20% 5% 5%;
+    font-family: 'Comfortaa', cursive;
+}
