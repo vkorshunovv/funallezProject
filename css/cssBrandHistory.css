@@ -1,5 +1,11 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
     background-color: #f8f4f4;
+    height: 100%;
     
     
     
@@ -57,6 +63,13 @@ nav {
 
 /* MAIN */
 
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    
+}
+
 .text-center {
     display: block;
     width: 50%;
@@ -68,17 +81,16 @@ nav {
 }
 
 main div:first-child {
-    display: block;
+    
+    flex: 1 0 auto;
     
     
      
 }
 #factoryImage {
-    width: 80vw;
-    /* opacity: 70%; */
-    height: 60vh;
-    margin-left: 10%;
-    border-radius: 15px;
+    width: 100vw;
+    height: 50%;
+    
     
     
 }
@@ -89,12 +101,10 @@ img {
 /* FOOTER */
 
 footer {
-    display: block;
+    
     background-color: rgba(237, 219, 219, 0.628);
-    width: 100wh;
-    height: 10vh;
     box-shadow: 0 -5px 2px -5px #3333335f;
-    margin-top: 0.5%;
+    flex: 0 0 auto;
 }
 
 footer div:first-child {

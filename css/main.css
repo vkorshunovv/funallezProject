@@ -1,9 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #f8f4f4;
-    
-    
-    
-    
+    height: 100%;    
 }
 /* HEADER */
 
@@ -11,7 +13,6 @@ nav {
     
     font-family: 'Comfortaa', cursive;
     font-size: 1.3em;
-    /* border-bottom: 1px solid #00000026; */
     
 }
 
@@ -58,10 +59,20 @@ nav {
 
 /* MAIN */
 
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+#mainDiv {
+
+flex: 1 0 auto;
+}
 
 h2 {
     text-align: left;
-    margin: 10% 20% 5% 5%;
+    margin: 5%;
     font-family: 'Comfortaa', cursive;
     color: rgba(0, 0, 0, 0.532);
 }
@@ -137,12 +148,10 @@ main div:last-child {
 /* FOOTER */
 
 footer {
-    display: block;
+    
     background-color: rgba(237, 219, 219, 0.628);
-    width: 100wh;
-    height: 10vh;
     box-shadow: 0 -5px 2px -5px #3333335f;
-    margin-top: 5%;
+    flex: 0 0 auto;
 }
 
 footer div:first-child {
